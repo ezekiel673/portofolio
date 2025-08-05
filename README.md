@@ -96,7 +96,7 @@ npm run dev
 ```bash
 npm run build
 npm start
-
+```
 ## 🖼️ Full Portfolio Page
 
 ![Portfolio Screenshot](public/images/portofolio.png)
