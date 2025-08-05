@@ -5,7 +5,7 @@ It’s designed to be fast, accessible, and easy to customize.
 ---
 
 ## 🚀 Live Demo
-**🔗 [View Portfolio](https://adeosunezekiel.potofolio.com)**
+**🔗 [View Portfolio](https://adeosunezekiel.portofolio.com)**
 
 ---
 
@@ -28,25 +28,42 @@ It’s designed to be fast, accessible, and easy to customize.
 - JavaScript (ES6+) / TypeScript
 - React.js / Next.js
 
-**Backend (if applicable):**
-- Node.js + Express.js (for contact form email sending)
 
 **Hosting:**
-- [Vercel](https://vercel.com) / [Netlify](https://www.netlify.com) / GitHub Pages
+- GitHub Pages
 
 ---
 
 ## 📂 Project Structure
 
-├── public/ # Static assets (images, icons, favicon)
+├── public/ # Static assets (images, favicon)
 ├── src/
+  ├── assets    
 │ ├── components/ # Reusable UI components
-│ ├── pages/ # Page components (if using Next.js)
+      ├── About.tsx
+      ├── Contact.tsx
+      ├── Navbar.tsx
+      ├── Services.tsx
+      ├── Skills.tsx
+      └── Work.tsx
 │ ├── styles/ # Global & component styles
-│ ├── data/ # Project and navigation data
-│ └── App.tsx # Main app entry
+      ├── App.css
+      └── index.css
+│ ├── main.tsx
+  ├── App.tsx
+  └── vite-env.d.ts
+├── .gitignore
+├── eslint.config.js
+├── index.html
 ├── package.json
-└── README.md
+├── package-lock.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.js
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
 
 
 ## ⚙️ Setup & Installation
@@ -79,31 +96,22 @@ npm run dev
 ```bash
 npm run build
 npm start
-```
-## 📬 Contact Form Integration
-- This project supports sending messages directly to your email via a backend endpoint.
-You can use Nodemailer, SendGrid, or any email API.
 
-- Example setup:
+## 🖼️ Full Portfolio Page
 
-  1. Add API route /api/contact
+![Portfolio Screenshot](public/images/portofolio.png)
 
-  2. Configure SMTP credentials in .env.local
-
-  3. Validate & send emails securely
-
-## 🖼️ Screenshots
-- portofolio full page[public/images/portofolio.png]
 
 ## 📜 License
 - This project is licensed under the MIT License.
 - Feel free to fork and customize, but please credit me where appropriate.
 
 ## 📧 Contact
-- E-MAIL – adeosunezekiel005@gmail.com
-- Website: adeosunezekiel.com
-- LinkedIn: linkedin.com/in/ezekiel-adeosun
-GitHub: github.com/ezekiel673
+- **Email:** [adeosunezekiel005@gmail.com](mailto:adeosunezekiel005@gmail.com)  
+- **Website:** [adeosunezekiel.com](https://adeosunezekiel.portofolio.com)  
+- **LinkedIn:** [linkedin.com/in/ezekiel-adeosun](https://linkedin.com/in/ezekiel-adeosun)  
+- **GitHub:** [github.com/ezekiel673](https://github.com/ezekiel673)
+
 
 
 
