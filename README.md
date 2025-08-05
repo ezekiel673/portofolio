@@ -107,10 +107,11 @@ npm start
 - Feel free to fork and customize, but please credit me where appropriate.
 
 ## 📧 Contact
-- **Email:** [adeosunezekiel005@gmail.com](mailto:adeosunezekiel005@gmail.com)  
-- **Website:** [adeosunezekiel.com](https://adeosunezekiel.portofolio.com)  
-- **LinkedIn:** [linkedin.com/in/ezekiel-adeosun](https://linkedin.com/in/ezekiel-adeosun)  
-- **GitHub:** [github.com/ezekiel673](https://github.com/ezekiel673)
+- [**Email:**] (mailto:adeosunezekiel005@gmail.com)  
+- [**Website:**] (https://adeosunezekiel.portofolio.com)  
+- [**LinkedIn:**] (https://linkedin.com/in/ezekiel-adeosun)  
+- [**GitHub:**] (https://github.com/ezekiel673)
+
 
 
 
