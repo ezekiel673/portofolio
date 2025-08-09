@@ -12,18 +12,17 @@ const Skills: React.FC<SkillsProps> = ({ lang }) => {
   };
 
   // Skill image data with alt text
-  const skills = [
-    { src: '/images/html5_icon.png', alt: 'HTML5' },
-    { src: '/images/css_icon.png', alt: 'CSS3' },
-    { src: '/images/JS_icon.png', alt: 'JavaScript' },
-    { src: '/images/typescript_icon.png', alt: 'TypeScript' },
-    { src: '/images/tailwind_icon.png', alt: 'Tailwind CSS' },
-    { src: '/images/react_icon.png', alt: 'React' },
-    { src: '/images/git_icon.png', alt: 'Git' },
-    { src: '/images/wordpress_icon.png', alt: 'WordPress' },
-    { src: '/images/sass_icon.png', alt: 'SASS' }
-  ];
-
+ const skills = [
+  { src: `${import.meta.env.BASE_URL}images/html5_icon.png`, alt: 'HTML5' },
+  { src: `${import.meta.env.BASE_URL}images/css_icon.png`, alt: 'CSS3' },
+  { src: `${import.meta.env.BASE_URL}images/JS_icon.png`, alt: 'JavaScript' },
+  { src: `${import.meta.env.BASE_URL}images/typescript_icon.png`, alt: 'TypeScript' },
+  { src: `${import.meta.env.BASE_URL}images/tailwind_icon.png`, alt: 'Tailwind CSS' },
+  { src: `${import.meta.env.BASE_URL}images/react_icon.png`, alt: 'React' },
+  { src: `${import.meta.env.BASE_URL}images/git_icon.png`, alt: 'Git' },
+  { src: `${import.meta.env.BASE_URL}images/wordpress_icon.png`, alt: 'WordPress' },
+  { src: `${import.meta.env.BASE_URL}images/sass_icon.png`, alt: 'SASS' }
+];
   return (
     <section id="technologies" className="skills text-center py-20 px-4">
       {/* Section heading */}

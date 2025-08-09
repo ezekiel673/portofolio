@@ -20,24 +20,25 @@ const Contact: React.FC<ContactProps> = ({ lang }) => {
           {/* Social media icons */}
           <div className="social-media flex gap-4 mt-4">
             <a href="tel:+2348108839073">
-              <img src="/images/phone_icon.png" alt="Phone" className="w-8 h-8" />
+              <img src={`${import.meta.env.BASE_URL}images/phone_icon.png`} alt="Phone" className="w-8 h-8" />
             </a>
             <a href="https://ng.linkedin.com/in/ezekiel-adeosun">
-              <img src="/images/linkedin_logo.png" alt="LinkedIn" className="w-8 h-8" />
+              <img src={`${import.meta.env.BASE_URL}images/linkedin_logo.png`} alt="LinkedIn" className="w-8 h-8" />
             </a>
             <a href="https://github.com/ezekiel673/">
-              <img src="/images/github_icon.png" alt="GitHub" className="w-8 h-8" />
+              <img src={`${import.meta.env.BASE_URL}images/github_icon.png`} alt="GitHub" className="w-8 h-8" />
             </a>
             <a href="https://www.instagram.com/yeshuacode_it/">
-              <img src="/images/instagram_logo.png" alt="Instagram" className="w-8 h-8" />
+              <img src={`${import.meta.env.BASE_URL}images/instagram_logo.png`} alt="Instagram" className="w-8 h-8" />
             </a>
             <a href="https://x.com/yeshua_codeit">
-              <img src="/images/x_logo.png" alt="Twitter/X" className="w-8 h-8" />
+              <img src={`${import.meta.env.BASE_URL}images/x_logo.png`} alt="Twitter/X" className="w-8 h-8" />
             </a>
             <a href="wa.me/2348108839073">
-              <img src="/images/whatsapp_logo.png" alt="WhatsApp" className="w-8 h-8" />
+              <img src={`${import.meta.env.BASE_URL}images/whatsapp_logo.png`} alt="WhatsApp" className="w-8 h-8" />
             </a>
           </div>
+
         </div>
 
         {/* Contact form */}
