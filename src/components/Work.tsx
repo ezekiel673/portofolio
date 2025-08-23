@@ -58,7 +58,7 @@ const Work: React.FC<WorkProps> = ({ lang }) => {
     tech: '(HTML, CSS, JS)'
   },
   {
-    href: 'https://ezekiel-great.github.io/Countries_Capital_Quiz/',
+    href: 'https://ezekiel673.github.io/Countries_Capital_Quiz/',
     imgSrc: `${import.meta.env.BASE_URL}images/capital_cities_quiz.png`,
     imgAlt: 'Project 6',
     titleEn: 'Countries Capital Quiz',
