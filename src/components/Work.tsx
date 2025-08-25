@@ -58,14 +58,6 @@ const Work: React.FC<WorkProps> = ({ lang }) => {
     tech: '(HTML, CSS, JS)'
   },
   {
-    href: 'https://ezekiel673.github.io/Countries_Capital_Quiz/',
-    imgSrc: `${import.meta.env.BASE_URL}images/capital_cities_quiz.png`,
-    imgAlt: 'Project 6',
-    titleEn: 'Countries Capital Quiz',
-    titleEs: 'Cuestionario de Capitales',
-    tech: '(JS)'
-  },
-  {
     href: 'https://advice-generator-app-pi-five.vercel.app/',
     imgSrc: `${import.meta.env.BASE_URL}images/advice_generator_app.png`,
     imgAlt: 'Project 7',
