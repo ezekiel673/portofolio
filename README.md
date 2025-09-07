@@ -5,7 +5,7 @@ It’s designed to be fast, accessible, and easy to customize.
 ---
 
 ## 🚀 Live Demo
-**🔗 [View Portfolio](https://adeosunezekiel.portofolio.com)**
+**🔗 [View Portfolio](https://portofolio-mu-eight-39.vercel.app/)**
 
 ---
 
